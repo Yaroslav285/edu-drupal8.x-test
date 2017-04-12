@@ -90,18 +90,22 @@ input#edit-mail:hover, input#edit-pass:hover,  input#edit-name:hover, input#edit
 }
 
 
-form#search-block-form input#edit-submit--3 {
+/*
+ .js-form-submit {
 width:135px;    
-}
+} 
+*/
 
 .form-search {
     height: 40px;
     border: #8c8282 2px solid;
 }
 
- div#block-test-page-title, div#block-test-content {
+
+div#block-test-page-title, div#block-test-content {
     width: 65%;
 }
+
 
 aside, .layout-content {
     position: absolute;
