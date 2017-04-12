@@ -106,6 +106,7 @@ div#block-test-search form#search-block-form .button {
 
 div#block-test-page-title, div#block-test-content {
     width: 87%;
+    margin-bottom: 50px;
 }
 
 
