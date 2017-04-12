@@ -169,3 +169,7 @@ background:darkcyan;
 article {
     text-align: justify;
 }
+
+body {
+    background: url(/themes/test/images/u.jpg);
+}
