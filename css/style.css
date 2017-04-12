@@ -87,14 +87,12 @@ input#edit-mail:hover, input#edit-pass:hover,  input#edit-name:hover, input#edit
     font-size: initial;
     color: white;
     border-radius: 7px;
+    margin-bottom: 10px;
 }
 
 
-/*
- .js-form-submit {
-width:135px;    
-} 
-*/
+ 
+
 
 .form-search {
     height: 40px;
@@ -202,4 +200,20 @@ nav#block-test-account-menu ul li a {
     color: white;
     text-decoration:none;
     vertical-align:-webkit-baseline-middle;
+}
+
+
+@media screen and  (max-width: 768px){
+
+aside, .layout-content {
+    position:inherit;    
+}
+
+aside {
+    width: auto;
+    left: auto;
+    top:inherit;
+    left:35px;
+}
+
 }
