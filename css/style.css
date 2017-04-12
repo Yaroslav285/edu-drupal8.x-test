@@ -102,6 +102,10 @@ width:135px;
 }
 
 
+div#block-test-search form#search-block-form .button {
+    width: 135px;
+}
+
 div#block-test-page-title, div#block-test-content {
     width: 65%;
 }
