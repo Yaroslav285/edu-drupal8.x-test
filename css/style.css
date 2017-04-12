@@ -80,7 +80,6 @@ input#edit-mail:hover, input#edit-pass:hover,  input#edit-name:hover, input#edit
 
 .button {
     height: 40px;
-    width: 135px;
     margin-top: 5px;
     background: #696760;
     font-weight: bold;
@@ -88,6 +87,11 @@ input#edit-mail:hover, input#edit-pass:hover,  input#edit-name:hover, input#edit
     font-size: initial;
     color: white;
     border-radius: 7px;
+}
+
+
+form#search-block-form input#edit-submit--3 {
+width:135px;    
 }
 
 .form-search {
