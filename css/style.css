@@ -105,7 +105,7 @@ div#block-test-search form#search-block-form .button {
 }
 
 div#block-test-page-title, div#block-test-content {
-    width: 65%;
+    width: 87%;
 }
 
 
@@ -120,8 +120,8 @@ main {
 }
 
 aside {
-    width: 30%;
-    left: 70%;
+    width: 10%;
+    left: 90%;
     top: -10px;
 }
 
