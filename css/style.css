@@ -21,7 +21,7 @@ nav#block-test-main-menu  {
 
 nav#block-test-main-menu ul {
 
-position: relative;
+    position: relative;
     display: inline-block;
 }
 
@@ -96,11 +96,12 @@ input#edit-mail:hover, input#edit-pass:hover,  input#edit-name:hover, input#edit
 }
 
  div#block-test-page-title, div#block-test-content {
-    width: 70%;
+    width: 65%;
 }
 
 aside, .layout-content {
     position: absolute;
+    left: 35px;
 }
 
 
@@ -110,7 +111,7 @@ main {
 
 aside {
     width: 30%;
-    left: 80%;
+    left: 70%;
     top: -10px;
 }
 
@@ -172,4 +173,21 @@ article {
 
 body {
     background: url(/themes/test/images/u.jpg);
+}
+
+nav#block-test-account-menu {
+    height: 40px;
+    width: 135px;
+    background: #696760;
+    color: white;
+    border-radius: 7px;
+}
+
+nav#block-test-account-menu ul li a {
+    font-weight: bold;
+    font-style: italic;
+    font-size: initial;
+    color: white;
+    text-decoration:none;
+    vertical-align:-webkit-baseline-middle;
 }
