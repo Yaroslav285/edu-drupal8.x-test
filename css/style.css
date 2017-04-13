@@ -380,3 +380,12 @@ h2 a {
     text-decoration: none;
     color: #fff;
 }
+
+summary {
+    background: lightblue;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: coral 1px solid;
+}
+
+
