@@ -33,7 +33,6 @@ nav#block-test-main-menu ul li {
     background: lightgray;
     height: 30px;
     border-radius: 5px;
-    width: 80px;
     text-align: center;
   }
 
@@ -43,7 +42,7 @@ nav#block-test-main-menu ul li a {
     font-weight:bold;
     vertical-align:-webkit-baseline-middle;
     height: 30px;
-    width: 80px;
+    margin:10px;
 }
 
 nav#block-test-main-menu ul li .is-active {
