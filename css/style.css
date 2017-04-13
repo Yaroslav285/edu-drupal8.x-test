@@ -1,6 +1,6 @@
 h1 {
-    color: white;
-    background-color: gray;
+    color: black;
+    background-color: #DCD1D3;
     border-radius: 5px;
     border: green 1px solid;
     text-align: center;
@@ -389,3 +389,13 @@ summary {
 }
 
 
+.comm {
+    background: #fff;
+    border-radius: 10px;
+    text-align: justify;
+    width: 65%;
+}
+
+div.comm p {
+    margin-left: 20px;
+}
