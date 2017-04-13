@@ -218,7 +218,29 @@ aside {
     left: auto;
     top:inherit;
     left:35px;
-    margin-bottom: 200px;	
+    margin-bottom: 150px;	
+}
+
+div#block-test-content {
+    margin-bottom: 30px !important;
+}
+
+
+nav#block-test-account-menu {
+    width: 100%;
+ 
+}
+
+h2 {
+    text-align: -webkit-center;
+}
+
+.form-search {
+    width:100%
+}
+
+div#block-test-search form#search-block-form .button {
+    width:100%
 }
 
 }
@@ -229,5 +251,15 @@ form {
 }
 
 main .layout-content {
-    width: 100%;
+    width: 97%;
+}
+
+
+form#contact-message-feedback-form {
+    text-align: -webkit-center;
+}
+
+
+.form-text, .form-email, .form-textarea {
+    text-align: -webkit-center;
 }
