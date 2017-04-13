@@ -13,10 +13,8 @@ li {display:block !important;}
 nav#block-test-main-menu  {
  background-color: #4CAF50;
     color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+    padding: 5px;
+    font-size: 15px;
 }
 
 nav#block-test-main-menu ul {
@@ -309,3 +307,51 @@ div#block-test-breadcrumbs nav ol li {
     display: inline-block !important;
     margin-right: 10px;
 }
+
+div#block-test-breadcrumbs {
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    border: green 1px solid;
+    margin-top:5px;
+    margin-bottom:5px;
+    height:50px;
+}
+
+div#block-test-breadcrumbs nav ol li a {
+    color: #fff;
+    text-decoration:none;
+    font-weight:600;
+}
+
+ul.links.inline li {
+    display: inline-block !important;
+    margin-right: 20px;
+    height: 24px;
+    margin-top: 5px;
+    background: #696760;
+    font-weight: bold;
+    font-style: italic;
+    font-size: initial;
+    color: white;
+    border-radius: 7px;
+    margin-bottom: 5px;
+}
+
+ul.links.inline li a {
+margin: 5px;
+text-decoration:none;
+color:#fff;
+}
+
+ul.links.inline li:hover {
+    background: darkcyan;
+}
+
+h2 {    color: white;
+    background-color: #ab9494;
+    border-radius: 5px;
+    border: green 1px solid;
+    text-align: center;
+    font-size: 20px;
+    }
