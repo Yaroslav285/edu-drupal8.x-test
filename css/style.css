@@ -41,8 +41,11 @@ nav#block-test-main-menu ul li a {
     text-decoration:none;
     font-weight:bold;
     vertical-align:-webkit-baseline-middle;
-    height: 30px;
+    margin-left:5px;
+    margin-right:5px;
+/*    height: 30px;
     margin:10px;
+*/
 }
 
 nav#block-test-main-menu ul li .is-active {
@@ -275,7 +278,7 @@ form#contact-message-feedback-form {
   -moz-border-radius: 3px; 
   border-radius: 3px; 
   background: #999999; 
-  opacity: 0.4; 
+  opacity: 0.6; 
   filter: alpha(opacity=40);
   width: 55px; 
   height: 55px; 
