@@ -263,3 +263,12 @@ form#contact-message-feedback-form {
 .form-text, .form-email, .form-textarea {
     text-align: -webkit-center;
 }
+
+
+.comment-comment-form {
+    width: 60%;
+}
+
+input#edit-subject-0-value {
+    width: 60%;
+}
