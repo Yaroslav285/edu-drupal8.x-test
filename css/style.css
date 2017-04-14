@@ -191,11 +191,14 @@ body {
 }
 
 nav#block-test-account-menu {
-    height: 65px;
+/*  height: 65px; */
+    word-break: break-word;
     width: 100%;
     background: #696760;
     color: white;
     border-radius: 7px;
+    border: orange 1px solid;
+    margin-top: 15px;
 }
 
 nav#block-test-account-menu ul li a {
@@ -204,11 +207,11 @@ nav#block-test-account-menu ul li a {
     font-size: initial;
     color: white;
     text-decoration:none;
-    vertical-align:-webkit-baseline-middle;
+  /*  vertical-align:-webkit-baseline-middle; */
 }
 
 
-@media screen and  (max-width: 768px){
+@media screen and  (max-width: 1000px){
 
 aside, .layout-content {
     position:inherit;    
@@ -216,20 +219,26 @@ aside, .layout-content {
 
 aside {
     width: auto;
-    left: auto;
+    left: 10px;
     top:inherit;
-    left:35px;
     margin-bottom: 150px;	
 }
+
 
 div#block-test-content {
     margin-bottom: 30px !important;
 }
 
-
+h2{
+    width: 95%; 
+}
 nav#block-test-account-menu {
     width: 95%;
  
+}
+
+input#edit-mail, input#edit-pass, input#edit-name, input#edit-subject-0-value, textarea#edit-message-0-value {
+    width: 95%;
 }
 
 h2 {
