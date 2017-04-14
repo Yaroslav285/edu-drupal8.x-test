@@ -15,4 +15,8 @@ jQuery(document).ready(function($) {
 });
 
 
-
+jQuery(document).ready(function($){
+    $("div.manage").click(function(){
+        $("div#block-test-local-tasks").toggle(700);
+    });
+});

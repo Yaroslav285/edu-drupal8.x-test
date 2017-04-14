@@ -409,3 +409,9 @@ summary {
 div.comm p {
     margin-left: 20px;
 }
+
+
+.manage {
+    text-align: right;
+    margin-right: 15%;
+}
