@@ -73,8 +73,17 @@
   #}
   <mark class="hidden" data-comment-timestamp="{{ new_indicator_timestamp }}"></mark>
 
-  <footer>
-    {{ user_picture }}
+  <div{{ content_attributes }}>
+    {% if title %}
+      {{ title_prefix }}
+      <h3{{ title_attributes }}>{{ title }}</h3>
+      {{ title_suffix }}
+    {% endif %}
+<div class="comm">  {{ content }} </div>
+  </div>
+</article>
+
+ {{ user_picture }}
     <p>{{ submitted }}</p>
 
     {#
@@ -87,14 +96,10 @@
     {% endif %}
 
     {{ permalink }}
+
+
+
+  <footer>
   </footer>
 
-  <div{{ content_attributes }}>
-    {% if title %}
-      {{ title_prefix }}
-      <h3{{ title_attributes }}>{{ title }}</h3>
-      {{ title_suffix }}
-    {% endif %}
-<div class="comm">  {{ content }} </div>
-  </div>
-</article>
+ 

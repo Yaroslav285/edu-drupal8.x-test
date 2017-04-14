@@ -18,8 +18,15 @@ jQuery(document).ready(function($) {
 jQuery(document).ready(function($){
     $("div.manage").click(function(){
         $("div#block-test-local-tasks").toggle(700);
+	 $("div.tools").toggle(700);
+
     });
 });
 
 
+jQuery(document).ready(function($){
+    $("div.newcomm").click(function(){
+        $("div.comm_add_form").toggle(700);
+    });
+});
 
