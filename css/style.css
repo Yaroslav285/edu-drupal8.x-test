@@ -97,11 +97,12 @@ input#edit-mail:hover, input#edit-pass:hover,  input#edit-name:hover, input#edit
 .form-search {
     height: 40px;
     border: #8c8282 2px solid;
+    width: 100%;
 }
 
 
 div#block-test-search form#search-block-form .button {
-    width: 135px;
+    width: 100%;
 }
 
 div#block-test-page-title, div#block-test-content {
@@ -191,7 +192,7 @@ body {
 
 nav#block-test-account-menu {
     height: 65px;
-    width: 140px;
+    width: 100%;
     background: #696760;
     color: white;
     border-radius: 7px;
